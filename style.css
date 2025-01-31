@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+    padding: 10px;
+}
+
+.container-header{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DAA520;
+    border: 4px dotted #1d1d1d;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-left: 4px dotted #1d1d1d;
+    border-right: 4px dotted #1d1d1d;
+    padding-left: 10px;
+    padding: 10px;
+    flex-basis: 900px;
+}
+
+.logo, .login{
+    flex-basis: 400px;
+    padding: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.blue-section {
+    background: darkblue;
+    padding: 40px;
+}
+.blue-section .box {
+    background: pink;
+    margin: auto;
+    width: 50%;
+    height: 460px;
+    border: 4px dotted #1d1d1d;
+}
+.white-section, .gray-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.white-section {
+    background: white;
+    padding: 80px;
+}
+.gray-section {
+    background: lightgray;
+    padding: 50px;
+}
+
+.box-inc{
+    width: 1600px;
+    flex-direction: row;
+    display: flex;
+}
+
+.box-inc .box, .box-inc .box {
+    flex: 1;
+    height: 590px;
+}
+
+.box.blue {
+    background: dodgerblue;
+    border: 4px dotted #1d1d1d;
+}
+.box.pink {
+    background: pink;
+    border: 4px dotted #1d1d1d;
+}
+.green-section {
+    background: green;
+    height: 800px;
+    margin: 60px auto;
+    width: 70%;
+    border: 4px dotted #1d1d1d;
+}
+
+#box-1 .box.blue{
+    flex-grow: 2;
+}
+
+#box-2 .box.pink{
+    flex-grow: 2;
+}
+
+#box-3 .box.blue{
+    flex-grow: 2;
+}
+
+.black-section {
+    background: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.black-section .box {
+    height: 100px;
+}
+
+.box-con{
+    display: flex;
+    flex-direction: row;
+    width: 1480px;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-section .pink-box {
+    background: salmon;
+    height: 880px;
+    flex-grow: 10;
+    padding: 10px;
+}
+
+
+.black-section .blue-box {
+    background: darkcyan;
+    flex-grow: 20;
+    height: 880px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.black-section .blue-box div {
+    flex: 1;
+    border: 1px dotted white;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: lightseagreen;
+    padding-top: 30px;
+    padding-bottom: 2px;
+}
+
+.box-fot{
+    width: 1200px;
+    background-color:#7FFFD4;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.con-fot{
+    width: auto;
+    padding: 10px;
+    background-color: #F08080;
+    border: 4px dotted #1d1d1d;
+}
